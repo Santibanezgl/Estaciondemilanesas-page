@@ -1,0 +1,141 @@
+/* Reset de valores predeterminados HTML */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+     box-sizing: border-box;
+}
+/* Fuentes */
+/*font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif;*/
+.navfont{
+	font-family: 'Roboto', sans-serif;
+	font-style: bold;
+}
+
+.hover-effect:hover {
+	text-shadow: 2px 2px 4px #888787;
+	color: #CA6F1E !important;
+  }
+
+.conocenosfont{
+	font-family: 'Roboto', sans-serif;
+	color: #CA6F1E !important;
+	font-size: 5rem;
+	text-shadow: 4px 4px 6px #000000;
+}
+
+/* Medidas generales */
+
+body{
+	width: 100vw;
+	height: 500vh;
+}
+
+header{
+	width: 100vw;
+	height: 22vh;
+}
+
+main{
+	width: 100vw;
+	height: 500vh;
+}
+
+/* Estilos del Header */
+
+#logonav{
+    width: 120px;
+    height: 120px;
+}
+
+#estilonav{
+    background-color: black !important;
+}
+
+.estilofuente{
+    color: white !important;
+}
+
+.botonpeya {
+	background-color: #FF4500;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	text-align: center;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	width: 120px;
+  }
+  
+  .botonpeya::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 120px;
+	height: 40px;
+	transform: translate(-50%, -50%);
+	background-image: url(../assets/images/PedidosYa.png);
+	background-size: cover;
+	border-radius: 5px;
+  }
+  
+  .botonpeya:hover {
+	background-color: #FF6B38;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  }
+
+
+  /* Estilos index main */ 
+
+.img-main{
+	width: 100vw;
+	height: 600px !important;
+}
+
+.contenedor{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+ /* mensaje we love mila */
+ .fuentemila {
+	font-family: 'Roboto', sans-serif;
+	font-style: bold;
+	color: #f8f7f6  !important;
+	text-shadow: 6px 6px 8px #000000;
+  }
+
+
+.mensajemila{
+	font-size: 4.2rem;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -30%);
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.mensajemila.show{
+	position: absolute;
+	opacity: 1;
+	top: 300px; /* Puedes ajustar la posición de acuerdo a tus preferencias */
+	left: 50%;
+	transform: translateX(-45%, -30%);
+}
+/* -------------------------------------------------------------- */
+
+
