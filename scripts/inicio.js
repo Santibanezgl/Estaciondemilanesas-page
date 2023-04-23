@@ -7,3 +7,14 @@ window.addEventListener('scroll', () => {
     message.classList.remove('show');
   }
 });
+
+
+const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 1420) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});

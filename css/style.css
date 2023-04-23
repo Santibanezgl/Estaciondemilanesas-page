@@ -28,6 +28,14 @@ font-family: 'Roboto', sans-serif;*/
 	text-shadow: 4px 4px 6px #000000;
 }
 
+.descubrifont{
+	font-family: 'Roboto', sans-serif;
+	color: #CA6F1E !important;
+	font-size: 2rem;
+	text-shadow: 2px 2px 4px #5f5f5f;
+}
+
+
 /* Medidas generales */
 
 body{
@@ -111,6 +119,7 @@ main{
 	position: relative;
 }
  /* mensaje we love mila */
+ /* ------------------------------------------------------------ */
  .fuentemila {
 	font-family: 'Roboto', sans-serif;
 	font-style: bold;
@@ -138,4 +147,51 @@ main{
 }
 /* -------------------------------------------------------------- */
 
+.colorbtncard{
+	background-color:#e27435 !important;
+	border: #000000 !important;
+	font-family: 'Roboto', sans-serif !important;
+}
 
+#imgamigos{
+	width: 100% !important;
+	height: 150vh;
+	margin-top: 50px;
+}
+
+.contenedoramigos{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+.mensajeamigos{
+	font-size: 3rem;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateX(-50%, -30%);
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.mensajeamigos.show{
+	position: absolute;
+	opacity: 1;
+	top: 50%;
+	left: 10%;
+	transform: translateX(-50%, -30%);
+}
+
+.fuenteamigos {
+	font-family: 'Roboto', sans-serif;
+	font-style: bold;
+	color: #f8f7f6  !important;
+	text-shadow: 6px 6px 8px #000000;
+	font-size: 6rem;
+  }
+
+.amigoscaja{
+	width: 100%;
+	height: 165vh;
+}
