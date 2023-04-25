@@ -480,17 +480,17 @@ footer{
 @media only screen and (min-width: 1280px) and (max-width: 1439px) {
 	body{
 		width: 100vw;
-		height: 764vh;
+		height: 539vh;
 	}
 	
 	header{
 		width: 100vw;
-		height: 24vh;
+		height: 19vh;
 	}
 	
 	main{
 		width: 100vw;
-		height: 700vh;
+		height: 480vh;
 	}
 	
 	footer{
@@ -503,3 +503,30 @@ footer{
 		height: 60%;
 	}
 }
+@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+	body{
+		width: 100vw;
+		height: 620vh;
+	}
+	
+	header{
+		width: 100vw;
+		height: 20vh;
+	}
+	
+	main{
+		width: 100vw;
+		height: 560vh;
+	}
+	
+	footer{
+		background-color: #000000;
+		width: 100vw;
+		height: 40vh;
+	}
+	#logofooter{
+		width: 40%;
+		height: 60%;
+	}
+}
+
