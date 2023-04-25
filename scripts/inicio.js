@@ -40,3 +40,64 @@ beat2.addEventListener('mouseover', () => {
 beat2.addEventListener('mouseout', () => {
   beat2.classList.remove('fa-beat');
 });
+
+
+if (window.matchMedia("(min-width: 1280px) and (max-width: 1439px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 2230) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}
+
+if (window.matchMedia("(min-width: 1163px) and (max-width: 1279px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 2300) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}
+
+if (window.matchMedia("(min-width: 992px) and (max-width: 1162px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 2150) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}
+
+if (window.matchMedia("(min-width: 913px) and (max-width: 991px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 2150) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}
+
+if (window.matchMedia("(min-width: 768px) and (max-width: 912px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 2770) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}

@@ -99,7 +99,7 @@ footer{
 	height: 40px;
 	width: 120px;
   }
-  
+
   .botonpeya::before {
 	content: "";
 	display: block;
@@ -122,9 +122,9 @@ footer{
 
   /* Estilos index main */ 
 
-.img-main{
-	width: 100vw;
-	height: 600px !important;
+  .img-main{
+	width: 100%;
+	height: 100% !important;
 }
 
 .contenedor{
@@ -274,4 +274,232 @@ footer{
 #logofooter{
 	width: 150px;
 	height: 150px;
+}
+
+
+.ocultar{
+	display: none;
+}
+
+
+/* MEDIA QUERYS */
+
+@media only screen and (max-width: 320px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+	body{
+		width: 100vw;
+		height: 1000vh;
+	}
+	
+	header{
+		width: 100vw;
+		height: 28vh;
+		position: relative;
+		z-index: 1;
+	}
+	
+	main{
+		width: 100vw;
+		height: 812vh;
+	}
+	
+	footer{
+		background-color: #000000;
+		width: 100vw;
+		height: 40vh;
+	}
+	.botonpeya {
+		display: none;
+	  }
+	  .mensajemila{
+		font-size: 6rem;
+		position: absolute;
+	  top: 30%;
+	  left: 50%;
+	  transform: translate(-45%, -30%);
+	  opacity: 0;
+	  transition: opacity 0.8s ease;
+	}
+	.mensajemila.show{
+		position: absolute;
+		opacity: 1;
+		top: 30%; /* Puedes ajustar la posición de acuerdo a tus preferencias */
+		left: 50%;
+		transform: translateX(-45%, -30%);
+	}
+	.fuenteamigos {
+		font-family: 'Roboto', sans-serif;
+		font-style: bold;
+		color: #f8f7f6  !important;
+		text-shadow: 6px 6px 8px #000000;
+		font-size: 4.1rem;
+	  }
+	  .mensajeamigos{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	transform: translateX(-45%, -30%);
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.mensajeamigos.show{
+	position: absolute;
+	opacity: 1;
+	top: 30%;
+	left: 10%;
+	transform: translateX(-30%, -50%);
+}
+}
+@media only screen and (min-width: 913px) and (max-width: 991px) {
+	body{
+		width: 100vw;
+		height: 765vh;
+	}
+	
+	header{
+		width: 100vw;
+		height: 25vh;
+		position: relative;
+		z-index: 1;
+	}
+	
+	main{
+		width: 100vw;
+		height: 700vh;
+	}
+	
+	footer{
+		background-color: #000000;
+		width: 100vw;
+		height: 40vh;
+	}
+	.botonpeya {
+		display: none;
+	  }
+	  .mensajemila{
+		font-size: 3.4rem;
+		position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-45%, -30%);
+	  opacity: 0;
+	  transition: opacity 0.8s ease;
+	}
+	.fuenteamigos {
+		font-family: 'Roboto', sans-serif;
+		font-style: bold;
+		color: #f8f7f6  !important;
+		text-shadow: 6px 6px 8px #000000;
+		font-size: 4rem;
+	  }
+	  #logofooter{
+		width: 60%;
+		height: 40%;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1162px) {
+	body{
+		width: 100vw;
+		height: 765vh;
+	}
+	
+	header{
+		width: 100vw;
+		height: 25vh;
+	}
+	
+	main{
+		width: 100vw;
+		height: 700vh;
+	}
+	
+	footer{
+		background-color: #000000;
+		width: 100vw;
+		height: 40vh;
+	}
+	#logofooter{
+		width: 40%;
+		height: 50%;
+	}
+	.fuenteamigos {
+		font-family: 'Roboto', sans-serif;
+		font-style: bold;
+		color: #f8f7f6  !important;
+		text-shadow: 6px 6px 8px #000000;
+		font-size: 4.4rem;
+	  }
+	  .mensajemila{
+		font-size: 3.7rem;
+		position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-45%, -30%);
+	  opacity: 0;
+	  transition: opacity 0.8s ease;
+	}
+}
+@media only screen and (min-width: 1163px) and (max-width: 1279px) {
+
+	body{
+		width: 100vw;
+		height: 762vh;
+	}
+	
+	header{
+		width: 100vw;
+		height: 24vh;
+	}
+	
+	main{
+		width: 100vw;
+		height: 700vh;
+	}
+	
+	footer{
+		background-color: #000000;
+		width: 100vw;
+		height: 40vh;
+	}
+	#logofooter{
+		width: 40%;
+		height: 60%;
+	}
+	.fuenteamigos {
+		font-family: 'Roboto', sans-serif;
+		font-style: bold;
+		color: #f8f7f6  !important;
+		text-shadow: 6px 6px 8px #000000;
+		font-size: 5rem;
+	  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+	body{
+		width: 100vw;
+		height: 764vh;
+	}
+	
+	header{
+		width: 100vw;
+		height: 24vh;
+	}
+	
+	main{
+		width: 100vw;
+		height: 700vh;
+	}
+	
+	footer{
+		background-color: #000000;
+		width: 100vw;
+		height: 40vh;
+	}
+	#logofooter{
+		width: 40%;
+		height: 60%;
+	}
 }
