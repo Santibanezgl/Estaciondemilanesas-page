@@ -291,19 +291,19 @@ footer{
 @media only screen and (min-width: 768px) and (max-width: 912px) {
 	body{
 		width: 100vw;
-		height: 1000vh;
+		height: 479vh;
 	}
 	
 	header{
 		width: 100vw;
-		height: 28vh;
+		height: 14vh;
 		position: relative;
 		z-index: 1;
 	}
 	
 	main{
 		width: 100vw;
-		height: 812vh;
+		height: 425vh;
 	}
 	
 	footer{
@@ -326,7 +326,7 @@ footer{
 	.mensajemila.show{
 		position: absolute;
 		opacity: 1;
-		top: 30%; /* Puedes ajustar la posición de acuerdo a tus preferencias */
+		top: 30%;
 		left: 50%;
 		transform: translateX(-45%, -30%);
 	}
@@ -335,7 +335,7 @@ footer{
 		font-style: bold;
 		color: #f8f7f6  !important;
 		text-shadow: 6px 6px 8px #000000;
-		font-size: 4.1rem;
+		font-size: 4.5rem;
 	  }
 	  .mensajeamigos{
 	position: absolute;
@@ -352,6 +352,15 @@ footer{
 	top: 30%;
 	left: 10%;
 	transform: translateX(-30%, -50%);
+}
+#imgamigos{
+	width: 100% !important;
+	height: 80vh;
+	margin-top: 50px;
+}
+.amigoscaja{
+	width: 100%;
+	height: 90vh;
 }
 }
 @media only screen and (min-width: 913px) and (max-width: 991px) {
@@ -506,17 +515,17 @@ footer{
 @media only screen and (min-width: 1440px) and (max-width: 1600px) {
 	body{
 		width: 100vw;
-		height: 620vh;
+		height: 466vh;
 	}
 	
 	header{
 		width: 100vw;
-		height: 20vh;
+		height: 16vh;
 	}
 	
 	main{
 		width: 100vw;
-		height: 560vh;
+		height: 410vh;
 	}
 	
 	footer{
