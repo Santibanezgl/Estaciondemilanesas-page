@@ -82,6 +82,7 @@ footer{
     color: white !important;
 }
 
+
 .botonpeya {
 	background-color: #FF4500;
 	color: #FFFFFF;
@@ -124,12 +125,12 @@ footer{
 
   .img-main{
 	width: 100%;
-	height: 100% !important;
+	height: 700px;
+	
 }
 
 .contenedor{
 	width: 100%;
-	height: 600px;
 	position: relative;
 }
  /* mensaje we love mila */
@@ -172,7 +173,7 @@ footer{
 #imgamigos{
 	width: 100% !important;
 	height: 150vh;
-	margin-top: 50px;
+	margin-top: 5%;
 }
 
 .contenedoramigos{
@@ -216,7 +217,7 @@ footer{
 
 
 #franquiciaimg{
-	width: 50%;
+	width: 100%;
 	height: 600px !important;
 }
 
@@ -284,22 +285,23 @@ footer{
 
 /* MEDIA QUERYS */
 
-@media only screen and (min-width: 279px) and (max-width: 375px) {
+
+@media (min-width: 280px){
 	body{
 		width: 100vw;
 		height: 500vh;
+		position: relative;
 	}
 	
 	header{
-		width: 100vw;
-		height: 16vh;
-		position: relative;
-		z-index: 1;
+		width: 100vw !important;
+		z-index: 2;
+		position: absolute;
 	}
 	
 	main{
 		width: 100vw;
-		height: 500vh;
+		height: 460vh;
 	}
 	
 	footer{
@@ -307,405 +309,36 @@ footer{
 		width: 100vw;
 		height: 40vh;
 	}
-	.botonpeya {
+	.botonpeya{
 		display: none;
-	  }
-	  .img-main{
-		width: 100%;
-		height: 94% !important;
 	}
-	.contenedor{
+	.img-main{
 		width: 100%;
-		height: 500px;
+		height: 200px;
+		margin-top: 145px;
+		
+	}
+	
+	.contenedor{
+		width: 113%;
 		position: relative;
 	}
 	.conocenosfont{
 		font-family: 'Roboto', sans-serif;
 		color: #CA6F1E !important;
-		font-size: 3.7rem;
+		font-size: 3.5rem;
 		text-shadow: 4px 4px 6px #000000;
 	}
+	.fuentemila {
+		font-family: 'Roboto', sans-serif;
+		font-style: bold;
+		color: #f8f7f6  !important;
+		text-shadow: 6px 6px 8px #000000;
+	  }
+	
+	
 	.mensajemila{
-		font-size: 3.3rem;
-		position: absolute;
-	  top: 40%;
-	  left: 50%;
-	  transform: translate(-45%, -30%);
-	  opacity: 0;
-	  transition: opacity 0.8s ease;
-	}
-	
-	.mensajemila.show{
-		position: absolute;
-		opacity: 1;
-		top: 40%;
-		left: 50%;
-		transform: translateX(-45%, -30%);
-	}
-	.fuenteamigos {
-		font-family: 'Roboto', sans-serif;
-		font-style: bold;
-		color: #f8f7f6  !important;
-		text-shadow: 6px 6px 8px #000000;
-		font-size: 2rem;
-	  }
-	  .mensajeamigos{
-	position: absolute;
-	top: 20%;
-	left: 10%;
-	transform: translateX(-45%, -30%);
-  opacity: 0;
-  transition: opacity 0.8s ease;
-}
-
-.mensajeamigos.show{
-	position: absolute;
-	opacity: 1;
-	top: 20%;
-	left: 10%;
-	transform: translateX(-30%, -50%);
-}
-#imgamigos{
-	width: 100% !important;
-	height: 50vh;
-	margin-top: 50px;
-}
-.amigoscaja{
-	width: 100%;
-	height: 60vh;
-}
-.conocenosfont{
-	font-family: 'Roboto', sans-serif;
-	color: #CA6F1E !important;
-	font-size: 3rem;
-	text-shadow: 4px 4px 6px #000000;
-}
-.franquiciasfont{
-	font-family: 'Roboto', sans-serif;
-	font-size: 0.8rem;
-}
-#franquiciaimg{
-	width: 100%;
-	height: 400px !important;
-	margin-top: 10px;
-}
-}
-@media only screen and (min-width: 376px) and (max-width: 411px){
-	body{
-		width: 100vw;
-		height: 470vh;
-	}
-	
-	header{
-		width: 100vw;
-		height: 14vh;
-		position: relative;
-		z-index: 1;
-	}
-	
-	main{
-		width: 100vw;
-		height: 415vh;
-	}
-	
-	footer{
-		background-color: #000000;
-		width: 100vw;
-		height: 40vh;
-	}
-	.botonpeya {
-		display: none;
-	  }
-	  .img-main{
-		width: 100%;
-		height: 94% !important;
-	}
-	.contenedor{
-		width: 100%;
-		height: 500px;
-		position: relative;
-	}
-	.conocenosfont{
-		font-family: 'Roboto', sans-serif;
-		color: #CA6F1E !important;
-		font-size: 3.7rem;
-		text-shadow: 4px 4px 6px #000000;
-	}
-	.mensajemila{
-		font-size: 3.3rem;
-		position: absolute;
-	  top: 40%;
-	  left: 50%;
-	  transform: translate(-45%, -30%);
-	  opacity: 0;
-	  transition: opacity 0.8s ease;
-	}
-	
-	.mensajemila.show{
-		position: absolute;
-		opacity: 1;
-		top: 40%;
-		left: 50%;
-		transform: translateX(-45%, -30%);
-	}
-	.fuenteamigos {
-		font-family: 'Roboto', sans-serif;
-		font-style: bold;
-		color: #f8f7f6  !important;
-		text-shadow: 6px 6px 8px #000000;
-		font-size: 2rem;
-	  }
-	  .mensajeamigos{
-	position: absolute;
-	top: 20%;
-	left: 10%;
-	transform: translateX(-45%, -30%);
-  opacity: 0;
-  transition: opacity 0.8s ease;
-}
-
-.mensajeamigos.show{
-	position: absolute;
-	opacity: 1;
-	top: 20%;
-	left: 10%;
-	transform: translateX(-30%, -50%);
-}
-#imgamigos{
-	width: 100% !important;
-	height: 50vh;
-	margin-top: 50px;
-}
-.amigoscaja{
-	width: 100%;
-	height: 60vh;
-}
-.conocenosfont{
-	font-family: 'Roboto', sans-serif;
-	color: #CA6F1E !important;
-	font-size: 3rem;
-	text-shadow: 4px 4px 6px #000000;
-}
-.franquiciasfont{
-	font-family: 'Roboto', sans-serif;
-	font-size: 0.8rem;
-}
-#franquiciaimg{
-	width: 100%;
-	height: 400px !important;
-	margin-top: 10px;
-}
-}
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-	body{
-		width: 100vw;
-		height: 445vh;
-	}
-	
-	header{
-		width: 100vw;
-		height: 14vh;
-		position: relative;
-		z-index: 1;
-	}
-	
-	main{
-		width: 100vw;
-		height: 390vh;
-	}
-	
-	footer{
-		background-color: #000000;
-		width: 100vw;
-		height: 40vh;
-	}
-	.botonpeya {
-		display: none;
-	  }
-	  .img-main{
-		width: 100%;
-		height: 94% !important;
-	}
-	.contenedor{
-		width: 100%;
-		height: 500px;
-		position: relative;
-	}
-	.conocenosfont{
-		font-family: 'Roboto', sans-serif;
-		color: #CA6F1E !important;
-		font-size: 3.7rem;
-		text-shadow: 4px 4px 6px #000000;
-	}
-	.mensajemila{
-		font-size: 3.3rem;
-		position: absolute;
-	  top: 40%;
-	  left: 50%;
-	  transform: translate(-45%, -30%);
-	  opacity: 0;
-	  transition: opacity 0.8s ease;
-	}
-	
-	.mensajemila.show{
-		position: absolute;
-		opacity: 1;
-		top: 40%; /* Puedes ajustar la posición de acuerdo a tus preferencias */
-		left: 50%;
-		transform: translateX(-45%, -30%);
-	}
-	.fuenteamigos {
-		font-family: 'Roboto', sans-serif;
-		font-style: bold;
-		color: #f8f7f6  !important;
-		text-shadow: 6px 6px 8px #000000;
-		font-size: 2rem;
-	  }
-	  .mensajeamigos{
-	position: absolute;
-	top: 20%;
-	left: 10%;
-	transform: translateX(-45%, -30%);
-  opacity: 0;
-  transition: opacity 0.8s ease;
-}
-
-.mensajeamigos.show{
-	position: absolute;
-	opacity: 1;
-	top: 20%;
-	left: 10%;
-	transform: translateX(-30%, -50%);
-}
-#imgamigos{
-	width: 100% !important;
-	height: 50vh;
-	margin-top: 50px;
-}
-.amigoscaja{
-	width: 100%;
-	height: 60vh;
-}
-.conocenosfont{
-	font-family: 'Roboto', sans-serif;
-	color: #CA6F1E !important;
-	font-size: 3rem;
-	text-shadow: 4px 4px 6px #000000;
-}
-.franquiciasfont{
-	font-family: 'Roboto', sans-serif;
-	font-size: 0.8rem;
-}
-#franquiciaimg{
-	width: 100%;
-	height: 400px !important;
-	margin-top: 10px;
-}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 949px) {
-	body{
-		width: 100vw;
-		height: 479vh;
-	}
-	
-	header{
-		width: 100vw;
-		height: 14vh;
-		position: relative;
-		z-index: 1;
-	}
-	
-	main{
-		width: 100vw;
-		height: 425vh;
-	}
-	
-	footer{
-		background-color: #000000;
-		width: 100vw;
-		height: 40vh;
-	}
-	.botonpeya {
-		display: none;
-	  }
-	  .mensajemila{
-		font-size: 6rem;
-		position: absolute;
-	  top: 30%;
-	  left: 50%;
-	  transform: translate(-45%, -30%);
-	  opacity: 0;
-	  transition: opacity 0.8s ease;
-	}
-	.mensajemila.show{
-		position: absolute;
-		opacity: 1;
-		top: 30%;
-		left: 50%;
-		transform: translateX(-45%, -30%);
-	}
-	.fuenteamigos {
-		font-family: 'Roboto', sans-serif;
-		font-style: bold;
-		color: #f8f7f6  !important;
-		text-shadow: 6px 6px 8px #000000;
-		font-size: 4.5rem;
-	  }
-	  .mensajeamigos{
-	position: absolute;
-	top: 30%;
-	left: 10%;
-	transform: translateX(-45%, -30%);
-  opacity: 0;
-  transition: opacity 0.8s ease;
-}
-
-.mensajeamigos.show{
-	position: absolute;
-	opacity: 1;
-	top: 30%;
-	left: 10%;
-	transform: translateX(-30%, -50%);
-}
-#imgamigos{
-	width: 100% !important;
-	height: 80vh;
-	margin-top: 50px;
-}
-.amigoscaja{
-	width: 100%;
-	height: 90vh;
-}
-}
-@media only screen and (min-width: 950px) and (max-width: 991px) {
-	body{
-		width: 100vw;
-		height: 765vh;
-	}
-	
-	header{
-		width: 100vw;
-		height: 10vh;
-		position: relative;
-		z-index: 1;
-	}
-	
-	main{
-		width: 100vw;
-		height: 290vh;
-	}
-	
-	footer{
-		background-color: #000000;
-		width: 100vw;
-		height: 40vh;
-	}
-	.botonpeya {
-		display: none;
-	  }
-	  .mensajemila{
-		font-size: 3.4rem;
+		font-size: 3rem;
 		position: absolute;
 	  top: 50%;
 	  left: 50%;
@@ -713,126 +346,81 @@ footer{
 	  opacity: 0;
 	  transition: opacity 0.8s ease;
 	}
-	.fuenteamigos {
-		font-family: 'Roboto', sans-serif;
-		font-style: bold;
-		color: #f8f7f6  !important;
-		text-shadow: 6px 6px 8px #000000;
-		font-size: 4rem;
-	  }
-	  #logofooter{
-		width: 60%;
-		height: 40%;
-	}
-	#imgamigos{
-		width: 100% !important;
-		height: 60vh;
-		margin-top: 50px;
-	}
-	.amigoscaja{
-		width: 100%;
-		height: 70vh;
-	}
-}
-@media only screen and (min-width: 992px) and (max-width: 1162px) {
-	body{
-		width: 100vw;
-		height: 290vh;
-	}
 	
-	header{
-		width: 100vw;
-		height: 10vh;
-	}
-	
-	main{
-		width: 100vw;
-		height: 260vh;
-	}
-	
-	footer{
-		background-color: #000000;
-		width: 100vw;
-		height: 20vh;
-	}
-	#logofooter{
-		width: 40%;
-		height: 50%;
-	}
-	.fuenteamigos {
-		font-family: 'Roboto', sans-serif;
-		font-style: bold;
-		color: #f8f7f6  !important;
-		text-shadow: 6px 6px 8px #000000;
-		font-size: 4.4rem;
-	  }
-	  .mensajemila{
-		font-size: 3.7rem;
+	.mensajemila.show{
 		position: absolute;
-	  top: 50%;
-	  left: 50%;
-	  transform: translate(-45%, -30%);
-	  opacity: 0;
-	  transition: opacity 0.8s ease;
+		opacity: 1;
+		top: 300px; /* Puedes ajustar la posición de acuerdo a tus preferencias */
+		left: 50%;
+		top: 50%;
+		transform: translateX(-45%, -30%);
 	}
 	#imgamigos{
 		width: 100% !important;
 		height: 50vh;
-		margin-top: 50px;
+		margin-top: 5%;
+	}
+	.mensajeamigos{
+		font-size: 2rem;
+		position: absolute;
+		top: 10%;
+		left: 10%;
+		transform: translateX(-50%, -30%);
+	  opacity: 0;
+	  transition: opacity 0.8s ease;
+	}
+	
+	.mensajeamigos.show{
+		position: absolute;
+		opacity: 1;
+		top: 10%;
+		left: 10%;
+		transform: translateX(-50%, -30%);
 	}
 	.amigoscaja{
 		width: 100%;
 		height: 55vh;
 	}
-}
-@media only screen and (min-width: 1163px) and (max-width: 1279px) {
-
-	body{
-		width: 100vw;
-		height: 762vh;
-	}
-	
-	header{
-		width: 100vw;
-		height: 24vh;
-	}
-	
-	main{
-		width: 100vw;
-		height: 700vh;
-	}
-	
-	footer{
-		background-color: #000000;
-		width: 100vw;
-		height: 40vh;
-	}
-	#logofooter{
-		width: 40%;
-		height: 60%;
-	}
-	.fuenteamigos {
+	.conocenosfont{
 		font-family: 'Roboto', sans-serif;
-		font-style: bold;
-		color: #f8f7f6  !important;
-		text-shadow: 6px 6px 8px #000000;
-		font-size: 5rem;
-	  }
+		color: #CA6F1E !important;
+		font-size: 2.8rem;
+		text-shadow: 4px 4px 6px #000000;
+	}
+	.franquiciasfont{
+		font-family: 'Roboto', sans-serif;
+		font-size: 0.9rem;
+	}
+	.left{
+		margin-left: 35px;
+	}
+	#btnmedidas{
+		width: 60%;
+		height: 45px;
+		margin-left: 40px;
+		margin-bottom: 5px;
+	}
+	#franquiciaimg{
+		width: 700px !important;
+		height: 200px !important;
+		margin-left: 10px;
+	}
 }
-@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+
+@media (min-width: 576px){
 	body{
 		width: 100vw;
-		height: 539vh;
+		height: 573vh;
 	}
 	
 	header{
 		width: 100vw;
-		height: 19vh;
+		height: 22vh;
 	}
 	
 	main{
 		width: 100vw;
-		height: 480vh;
+		height: 510vh;
 	}
 	
 	footer{
@@ -840,36 +428,23 @@ footer{
 		width: 100vw;
 		height: 40vh;
 	}
-	#logofooter{
-		width: 40%;
-		height: 60%;
+	.botonpeya{
+		display: none;
 	}
+	
+}
+@media (min-width: 768px){
+
 }
 
-@media only screen and (min-width: 1440px) and (max-width: 1600px) {
-	body{
-		width: 100vw;
-		height: 466vh;
-	}
-	
-	header{
-		width: 100vw;
-		height: 16vh;
-	}
-	
-	main{
-		width: 100vw;
-		height: 410vh;
-	}
-	
-	footer{
-		background-color: #000000;
-		width: 100vw;
-		height: 40vh;
-	}
-	#logofooter{
-		width: 40%;
-		height: 60%;
-	}
+@media (min-width: 992px){
+
 }
 
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 1400px){
+
+}
