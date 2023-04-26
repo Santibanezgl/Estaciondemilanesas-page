@@ -284,11 +284,326 @@ footer{
 
 /* MEDIA QUERYS */
 
-@media only screen and (max-width: 320px) {
-
+@media only screen and (max-width: 375px) {
+	body{
+		width: 100vw;
+		height: 556vh;
+	}
+	
+	header{
+		width: 100vw;
+		height: 16vh;
+		position: relative;
+		z-index: 1;
+	}
+	
+	main{
+		width: 100vw;
+		height: 500vh;
+	}
+	
+	footer{
+		background-color: #000000;
+		width: 100vw;
+		height: 40vh;
+	}
+	.botonpeya {
+		display: none;
+	  }
+	  .img-main{
+		width: 100%;
+		height: 94% !important;
+	}
+	.contenedor{
+		width: 100%;
+		height: 500px;
+		position: relative;
+	}
+	.conocenosfont{
+		font-family: 'Roboto', sans-serif;
+		color: #CA6F1E !important;
+		font-size: 3.7rem;
+		text-shadow: 4px 4px 6px #000000;
+	}
+	.mensajemila{
+		font-size: 3.3rem;
+		position: absolute;
+	  top: 40%;
+	  left: 50%;
+	  transform: translate(-45%, -30%);
+	  opacity: 0;
+	  transition: opacity 0.8s ease;
+	}
+	
+	.mensajemila.show{
+		position: absolute;
+		opacity: 1;
+		top: 40%;
+		left: 50%;
+		transform: translateX(-45%, -30%);
+	}
+	.fuenteamigos {
+		font-family: 'Roboto', sans-serif;
+		font-style: bold;
+		color: #f8f7f6  !important;
+		text-shadow: 6px 6px 8px #000000;
+		font-size: 2rem;
+	  }
+	  .mensajeamigos{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	transform: translateX(-45%, -30%);
+  opacity: 0;
+  transition: opacity 0.8s ease;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 912px) {
+.mensajeamigos.show{
+	position: absolute;
+	opacity: 1;
+	top: 20%;
+	left: 10%;
+	transform: translateX(-30%, -50%);
+}
+#imgamigos{
+	width: 100% !important;
+	height: 50vh;
+	margin-top: 50px;
+}
+.amigoscaja{
+	width: 100%;
+	height: 60vh;
+}
+.conocenosfont{
+	font-family: 'Roboto', sans-serif;
+	color: #CA6F1E !important;
+	font-size: 3rem;
+	text-shadow: 4px 4px 6px #000000;
+}
+.franquiciasfont{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8rem;
+}
+#franquiciaimg{
+	width: 100%;
+	height: 400px !important;
+	margin-top: 10px;
+}
+}
+@media only screen and (min-width: 376px) and (max-width: 411px){
+	body{
+		width: 100vw;
+		height: 464vh;
+	}
+	
+	header{
+		width: 100vw;
+		height: 14vh;
+		position: relative;
+		z-index: 1;
+	}
+	
+	main{
+		width: 100vw;
+		height: 410vh;
+	}
+	
+	footer{
+		background-color: #000000;
+		width: 100vw;
+		height: 40vh;
+	}
+	.botonpeya {
+		display: none;
+	  }
+	  .img-main{
+		width: 100%;
+		height: 94% !important;
+	}
+	.contenedor{
+		width: 100%;
+		height: 500px;
+		position: relative;
+	}
+	.conocenosfont{
+		font-family: 'Roboto', sans-serif;
+		color: #CA6F1E !important;
+		font-size: 3.7rem;
+		text-shadow: 4px 4px 6px #000000;
+	}
+	.mensajemila{
+		font-size: 3.3rem;
+		position: absolute;
+	  top: 40%;
+	  left: 50%;
+	  transform: translate(-45%, -30%);
+	  opacity: 0;
+	  transition: opacity 0.8s ease;
+	}
+	
+	.mensajemila.show{
+		position: absolute;
+		opacity: 1;
+		top: 40%;
+		left: 50%;
+		transform: translateX(-45%, -30%);
+	}
+	.fuenteamigos {
+		font-family: 'Roboto', sans-serif;
+		font-style: bold;
+		color: #f8f7f6  !important;
+		text-shadow: 6px 6px 8px #000000;
+		font-size: 2rem;
+	  }
+	  .mensajeamigos{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	transform: translateX(-45%, -30%);
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.mensajeamigos.show{
+	position: absolute;
+	opacity: 1;
+	top: 20%;
+	left: 10%;
+	transform: translateX(-30%, -50%);
+}
+#imgamigos{
+	width: 100% !important;
+	height: 50vh;
+	margin-top: 50px;
+}
+.amigoscaja{
+	width: 100%;
+	height: 60vh;
+}
+.conocenosfont{
+	font-family: 'Roboto', sans-serif;
+	color: #CA6F1E !important;
+	font-size: 3rem;
+	text-shadow: 4px 4px 6px #000000;
+}
+.franquiciasfont{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8rem;
+}
+#franquiciaimg{
+	width: 100%;
+	height: 400px !important;
+	margin-top: 10px;
+}
+}
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+	body{
+		width: 100vw;
+		height: 445vh;
+	}
+	
+	header{
+		width: 100vw;
+		height: 14vh;
+		position: relative;
+		z-index: 1;
+	}
+	
+	main{
+		width: 100vw;
+		height: 390vh;
+	}
+	
+	footer{
+		background-color: #000000;
+		width: 100vw;
+		height: 40vh;
+	}
+	.botonpeya {
+		display: none;
+	  }
+	  .img-main{
+		width: 100%;
+		height: 94% !important;
+	}
+	.contenedor{
+		width: 100%;
+		height: 500px;
+		position: relative;
+	}
+	.conocenosfont{
+		font-family: 'Roboto', sans-serif;
+		color: #CA6F1E !important;
+		font-size: 3.7rem;
+		text-shadow: 4px 4px 6px #000000;
+	}
+	.mensajemila{
+		font-size: 3.3rem;
+		position: absolute;
+	  top: 40%;
+	  left: 50%;
+	  transform: translate(-45%, -30%);
+	  opacity: 0;
+	  transition: opacity 0.8s ease;
+	}
+	
+	.mensajemila.show{
+		position: absolute;
+		opacity: 1;
+		top: 40%; /* Puedes ajustar la posición de acuerdo a tus preferencias */
+		left: 50%;
+		transform: translateX(-45%, -30%);
+	}
+	.fuenteamigos {
+		font-family: 'Roboto', sans-serif;
+		font-style: bold;
+		color: #f8f7f6  !important;
+		text-shadow: 6px 6px 8px #000000;
+		font-size: 2rem;
+	  }
+	  .mensajeamigos{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	transform: translateX(-45%, -30%);
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.mensajeamigos.show{
+	position: absolute;
+	opacity: 1;
+	top: 20%;
+	left: 10%;
+	transform: translateX(-30%, -50%);
+}
+#imgamigos{
+	width: 100% !important;
+	height: 50vh;
+	margin-top: 50px;
+}
+.amigoscaja{
+	width: 100%;
+	height: 60vh;
+}
+.conocenosfont{
+	font-family: 'Roboto', sans-serif;
+	color: #CA6F1E !important;
+	font-size: 3rem;
+	text-shadow: 4px 4px 6px #000000;
+}
+.franquiciasfont{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8rem;
+}
+#franquiciaimg{
+	width: 100%;
+	height: 400px !important;
+	margin-top: 10px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 949px) {
 	body{
 		width: 100vw;
 		height: 479vh;
@@ -363,7 +678,7 @@ footer{
 	height: 90vh;
 }
 }
-@media only screen and (min-width: 913px) and (max-width: 991px) {
+@media only screen and (min-width: 950px) and (max-width: 991px) {
 	body{
 		width: 100vw;
 		height: 765vh;
@@ -371,14 +686,14 @@ footer{
 	
 	header{
 		width: 100vw;
-		height: 25vh;
+		height: 10vh;
 		position: relative;
 		z-index: 1;
 	}
 	
 	main{
 		width: 100vw;
-		height: 700vh;
+		height: 290vh;
 	}
 	
 	footer{
@@ -409,27 +724,36 @@ footer{
 		width: 60%;
 		height: 40%;
 	}
+	#imgamigos{
+		width: 100% !important;
+		height: 60vh;
+		margin-top: 50px;
+	}
+	.amigoscaja{
+		width: 100%;
+		height: 70vh;
+	}
 }
 @media only screen and (min-width: 992px) and (max-width: 1162px) {
 	body{
 		width: 100vw;
-		height: 765vh;
+		height: 290vh;
 	}
 	
 	header{
 		width: 100vw;
-		height: 25vh;
+		height: 10vh;
 	}
 	
 	main{
 		width: 100vw;
-		height: 700vh;
+		height: 260vh;
 	}
 	
 	footer{
 		background-color: #000000;
 		width: 100vw;
-		height: 40vh;
+		height: 20vh;
 	}
 	#logofooter{
 		width: 40%;
@@ -450,6 +774,15 @@ footer{
 	  transform: translate(-45%, -30%);
 	  opacity: 0;
 	  transition: opacity 0.8s ease;
+	}
+	#imgamigos{
+		width: 100% !important;
+		height: 50vh;
+		margin-top: 50px;
+	}
+	.amigoscaja{
+		width: 100%;
+		height: 55vh;
 	}
 }
 @media only screen and (min-width: 1163px) and (max-width: 1279px) {
@@ -512,6 +845,7 @@ footer{
 		height: 60%;
 	}
 }
+
 @media only screen and (min-width: 1440px) and (max-width: 1600px) {
 	body{
 		width: 100vw;
