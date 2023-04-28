@@ -55,15 +55,25 @@ window.addEventListener('scroll', () => {
 }
 
 
-const footerpc = document.querySelector('.footerpc');
-const footercelu = document.querySelector('.footercelu');
+function actualizarFooter() {
+  const footerpc = document.querySelector('.footerpc');
+  const footercelu = document.querySelector('.footercelu');
 
-if (window.matchMedia("(min-width: 280px) and (max-width: 1023px)").matches) {
- footerpc.classList.add('ocultar')
-footercelu.classList.add('mostrar')
-console.log ("celu")
-} else{
- footerpc.classList.add('mostrar')
- footercelu.classList.add('ocultar')
- console.log ("pc")
+  if (window.matchMedia("(min-width: 280px) and (max-width: 1023px)").matches) {
+    footerpc.classList.add('ocultar');
+    footerpc.classList.remove('mostrar');
+    footercelu.classList.add('mostrar');
+    footercelu.classList.remove('ocultar');
+    console.log ("celu");
+  } else {
+    footerpc.classList.add('mostrar');
+    footerpc.classList.remove('ocultar');
+    footercelu.classList.add('ocultar');
+    footercelu.classList.remove('mostrar');
+    console.log ("pc");
+  }
 }
+
+actualizarFooter();
+
+window.addEventListener('resize', actualizarFooter); 
