@@ -46,7 +46,7 @@ if (window.matchMedia("(min-width: 1280px) and (max-width: 1439px)").matches) {
   const messageAmigos = document.querySelector('.mensajeamigos');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 2230) {
+  if (window.scrollY > 1500) {
     messageAmigos.classList.add('show');
   } else {
     messageAmigos.classList.remove('show');
