@@ -41,12 +41,38 @@ beat2.addEventListener('mouseout', () => {
   beat2.classList.remove('fa-beat');
 });
 
+/* MENSAJE AMIGOS SEGUN PANTALLA */
 
-if (window.matchMedia("(min-width: 1280px) and (max-width: 1439px)").matches) {
+/* MENSAJE AMIGOS SEGUN PANTALLA */
+if (window.matchMedia("(min-width: 280px) and (max-width: 767px)").matches) {
   const messageAmigos = document.querySelector('.mensajeamigos');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 1500) {
+  if (window.scrollY > 1850) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}
+
+if (window.matchMedia("(min-width: 768px) and (max-width: 949px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 2300) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}
+
+if (window.matchMedia("(min-width: 950px) and (max-width: 1023px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 2150) {
     messageAmigos.classList.add('show');
   } else {
     messageAmigos.classList.remove('show');
@@ -55,22 +81,75 @@ window.addEventListener('scroll', () => {
 }
 
 
+if (window.matchMedia("(min-width: 1024px) and (max-width: 1279px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 2750) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}
+
+if (window.matchMedia("(min-width: 1280px) and (max-width: 1359px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 1800) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}
+
+if (window.matchMedia("(min-width: 1360px) and (max-width: 1439px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 1850) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}
+
+if (window.matchMedia("(min-width: 1440px) and (max-width: 1600px)").matches) {
+  const messageAmigos = document.querySelector('.mensajeamigos');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 1930) {
+    messageAmigos.classList.add('show');
+  } else {
+    messageAmigos.classList.remove('show');
+  }
+});
+}
+
+
+
 function actualizarFooter() {
   const footerpc = document.querySelector('.footerpc');
   const footercelu = document.querySelector('.footercelu');
+  const  cajaboton = document.querySelector('.cajaboton');
 
   if (window.matchMedia("(min-width: 280px) and (max-width: 1023px)").matches) {
     footerpc.classList.add('ocultar');
     footerpc.classList.remove('mostrar');
     footercelu.classList.add('mostrar');
     footercelu.classList.remove('ocultar');
-    console.log ("celu");
+   cajaboton.classList.add('mostrar');
+   cajaboton.classList.remove('ocultar');
   } else {
     footerpc.classList.add('mostrar');
     footerpc.classList.remove('ocultar');
     footercelu.classList.add('ocultar');
     footercelu.classList.remove('mostrar');
-    console.log ("pc");
+    cajaboton.classList.add('ocultar');
+    cajaboton.classList.remove('mostrar');
   }
 }
 

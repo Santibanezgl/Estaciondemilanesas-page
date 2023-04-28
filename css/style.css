@@ -56,6 +56,7 @@ font-family: 'Roboto', sans-serif;*/
 body{
 	width: 100vw;
 	height: 573vh;
+	position: relative;
 }
 
 header{
@@ -133,7 +134,54 @@ footer{
 	height: 700px;
 	
 }
+.cajaboton{
+	position: relative;
+	position: fixed;
+	z-index: 7;
+	bottom: 0;
+	right: 0;
+}
+.cajaboton .botoncelu {
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+	z-index: 7;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	text-align: center;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	height: 10px;
+	width: 60px;
+  }
+.botoncelu::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 120px;
+	height: 40px;
+	transform: translate(-50%, -50%);
+	background-image: url(../assets/images/PedidosYa.png);
+	background-size: cover;
+	border-radius: 5px;
+	z-index: 7;
+  }
+  
+  .botoncelu:hover {
+	background-color: #FF6B38;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  }
 
+  
 .contenedor{
 	width: 100%;
 	position: relative;
@@ -619,7 +667,7 @@ margin-left: 10px !important;
 @media only screen and (min-width: 1024px) and (max-width: 1279px){
 	body{
 		overflow-x: hidden;
-		height: 400vh;
+		height: 410vh;
 	}
 	.fuentemila {
 		font-family: 'Roboto', sans-serif;
@@ -658,7 +706,7 @@ margin-left: 10px !important;
 	}
 	#imgamigos{
 		width: 100% !important;
-		height: 60vh;
+		height: 95vh;
 		margin-top: 5%;
 	}
 	.contenedoramigos{
@@ -669,7 +717,7 @@ margin-left: 10px !important;
 	
 	.mensajeamigos{
 		position: absolute;
-		top: 20%;
+		top: 60%;
 		left: 15%;
 		transform: translateX(-50%, -30%);
 	  opacity: 0;
@@ -679,7 +727,7 @@ margin-left: 10px !important;
 	.mensajeamigos.show{
 		position: absolute;
 		opacity: 1;
-		top: 20%;
+		top: 60%;
 		left: 15%;
 		transform: translateX(-50%, -30%);
 	}
@@ -694,7 +742,7 @@ margin-left: 10px !important;
 	
 	.amigoscaja{
 		width: 100%;
-		height: 70vh;
+		height: 105vh;
 	}
 	.franquiciasfont{
 		font-family: 'Roboto', sans-serif;
@@ -766,7 +814,7 @@ margin-left: 10px !important;
 	}
 	#imgamigos{
 		width: 100% !important;
-		height: 85vh;
+		height: 120vh;
 		margin-top: 5%;
 	}
 	.contenedoramigos{
@@ -802,7 +850,7 @@ margin-left: 10px !important;
 	
 	.amigoscaja{
 		width: 100%;
-		height: 95vh;
+		height: 130vh;
 	}
 	.franquiciasfont{
 		font-family: 'Roboto', sans-serif;
@@ -875,7 +923,7 @@ margin-left: 10px !important;
 	}
 	#imgamigos{
 		width: 100% !important;
-		height: 100vh;
+		height: 120vh;
 		margin-top: 5%;
 	}
 	.contenedoramigos{
@@ -911,7 +959,7 @@ margin-left: 10px !important;
 	
 	.amigoscaja{
 		width: 100%;
-		height: 115vh;
+		height: 130vh;
 	}
 	.franquiciasfont{
 		font-family: 'Roboto', sans-serif;
