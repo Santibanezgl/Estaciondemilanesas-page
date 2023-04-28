@@ -53,3 +53,17 @@ window.addEventListener('scroll', () => {
   }
 });
 }
+
+
+const footerpc = document.querySelector('.footerpc');
+const footercelu = document.querySelector('.footercelu');
+
+if (window.matchMedia("(min-width: 280px) and (max-width: 1023px)").matches) {
+ footerpc.classList.add('ocultar')
+footercelu.classList.add('mostrar')
+console.log ("celu")
+} else{
+ footerpc.classList.add('mostrar')
+ footercelu.classList.add('ocultar')
+ console.log ("pc")
+}

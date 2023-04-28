@@ -230,10 +230,9 @@ footer{
 
 .titulofooter{
 	font-family: 'Roboto', sans-serif;
-	color: white;
+	color: white !important;
 	font-size: 2rem;
 }
-
 
 
 .menufooter{
@@ -281,6 +280,16 @@ footer{
 	display: none;
 }
 
+.mostrar{
+	display: block;
+}
+
+.accordion-item{
+	background-color: black !important;
+}
+.accordion-button{
+	background-color: #000000 !important;
+}
 
 /* MEDIA QUERYS */
 
